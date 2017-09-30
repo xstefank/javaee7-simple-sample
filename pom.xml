@@ -18,9 +18,9 @@
         </dependency>
     </dependencies>
     <scm>
-        <connection>scm:git:https://github.com/javaee-samples/javaee7-simple-sample.git</connection>
-        <url>https://github.com/javaee-samples/javaee7-simple-sample.git</url>
-        <developerConnection>scm:git:https://github.com/javaee-samples/javaee7-simple-sample.git</developerConnection>
+        <connection>scm:git:https://github.com/xstefank/javaee7-simple-sample.git</connection>
+        <url>https://github.com/xstefank/javaee7-simple-sample.git</url>
+        <developerConnection>scm:git:https://github.com/xstefank/javaee7-simple-sample.git</developerConnection>
         <tag>v1.5</tag>
     </scm>
     <developers>
@@ -33,12 +33,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+            <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>

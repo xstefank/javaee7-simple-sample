@@ -4,3 +4,8 @@ nb-configuration.xml
 .settings/
 .tern-project
 /target/
+
+# idea
+.idea
+*.iml
+
